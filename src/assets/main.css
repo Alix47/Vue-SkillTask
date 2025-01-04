@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.f7-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.f7-navbar {
+  background-color: #007aff;
+  color: white;
+}
+
+.f7-button {
+  background-color: #007aff;
+  color: white;
+  font-weight: bold;
+}
