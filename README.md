@@ -2,10 +2,6 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
@@ -47,6 +43,8 @@ npm run lint
 
 - Responsive design across devices
 - Form validation and submission
+- Dark Mode
+- Routing with Vue-Router
 - State management with Pinia
 - Organized components and pages
 
