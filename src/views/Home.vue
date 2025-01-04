@@ -12,17 +12,17 @@
         <h2>Why Choose Us?</h2>
         <div class="feature-cards">
           <f7-card raised class="feature-card">
-            <f7-icon f7="paintbrush" size="40px" class="icon"></f7-icon>
+            <img src="../assets/paintbrush.svg" height="50px"/>
             <h3>Modern Design</h3>
             <p>Create visually stunning websites with modern and responsive designs.</p>
           </f7-card>
           <f7-card raised class="feature-card">
-            <f7-icon f7="bolt" size="40px" class="icon"></f7-icon>
+            <img src="../assets/bolt.svg" height="50px"/>
             <h3>Fast Performance</h3>
             <p>Optimized for speed and smooth user experience.</p>
           </f7-card>
           <f7-card raised class="feature-card">
-            <f7-icon f7="settings" size="40px" class="icon"></f7-icon>
+            <img src="../assets/gear.svg" height="50px"/>
             <h3>Customization</h3>
             <p>Personalize your designs with powerful tools and flexibility.</p>
           </f7-card>
@@ -37,11 +37,10 @@
   </template>
   
   <script setup>
-  import { f7Button, f7Card, f7Icon } from 'framework7-vue';
+  import { f7Button, f7Card, } from 'framework7-vue';
   </script>
   
   <style scoped>
-  /* Hero Section */
   .hero {
     /* background-color: #eaeefa;
     color: black; */

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { f7Page } from 'framework7-vue';
-import { f7Card, f7Icon,f7BlockTitle } from "framework7-vue"
+import { f7Card } from "framework7-vue"
 import FormCard from '@/components/Form-Card.vue';
 
 </script>
@@ -21,18 +21,18 @@ import FormCard from '@/components/Form-Card.vue';
         <h2>Our Values</h2>
         <div class="values-cards">
             <f7-card raised class="value-card">
-                <f7-block-title class="card-title">Value</f7-block-title>
+                <img src="../assets/heart.svg" height="50px"/>
             <h3>Passion</h3>
             <p>We are driven by a passion for innovation and excellence.</p>
         </f7-card>
         <f7-card raised class="value-card">
-            <f7-icon f7="group_fill" size="40px" class="icon"></f7-icon>
+          <img src="../assets/people-group-solid.svg" height="50px"/>
             <h3>Community</h3>
             <p>We believe in building a strong and supportive community.</p>
         </f7-card>
         <f7-card raised class="value-card">
-            <f7-icon f7="leaf_fill" size="40px" class="icon"></f7-icon>
-            <h3>Sustainability</h3>
+          <img src="../assets/earth.svg" height="50px"/>
+          <h3>Sustainability</h3>
             <p>Our work is grounded in sustainable and ethical practices.</p>
         </f7-card>
     </div>
